@@ -1,4 +1,5 @@
 # remark-task-list
+[![npm version](https://badge.fury.io/js/remark-task-list.svg)](https://badge.fury.io/js/remark-task-list) [![Build Status](https://travis-ci.org/landakram/remark-task-list.svg?branch=master)](https://travis-ci.org/landakram/remark-task-list)
 
 This [remark](https://github.com/wooorm/remark) plugin does a few things: 
 

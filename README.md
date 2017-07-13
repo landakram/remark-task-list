@@ -1,6 +1,6 @@
 # remark-task-list
 
-This plugin does a few things: 
+This [remark](https://github.com/wooorm/remark) plugin does a few things: 
 
 * It lets you add IDs to task list items so you can reference them later
 * It lets you toggle task list items by passing in a list of IDs to toggle. The plugin will transform the AST and flip the `node.checked` properties for each ID.

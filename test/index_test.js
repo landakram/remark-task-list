@@ -3,7 +3,7 @@ const unified = require('unified')
 const markdown = require('remark-parse')
 const visit = require('unist-util-visit');
 
-const taskListPlugin = require('.');
+const taskListPlugin = require('../lib/index.js');
 
 let processor = unified()
     .use(markdown, { gfm: true, footnotes: true, yaml: true })

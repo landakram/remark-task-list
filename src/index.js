@@ -1,4 +1,5 @@
-const map = require('unist-util-map');
+import 'babel-polyfill';
+import map from 'unist-util-map';
 
 const taskListPlugin = function(options) {
     options = options || {};

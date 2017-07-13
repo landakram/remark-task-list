@@ -1,0 +1,28 @@
+{
+  "name": "remark-task-list",
+  "description": "Toggle task list items and reference them by IDs.",
+  "version": "0.0.1",
+  "keywords": ["remark", "remark-plugin", "markdown", "gfm"],
+  "repository": "https://github.com/landakram/remark-task-list",
+  "license": "MIT",
+  "author": {
+      "name": "Mark Hudnall",
+      "email": "me@markhudnall.com",
+      "url": "https://markhudnall.com"
+  },
+  "scripts": {
+    "test": "mocha index_test.js"
+  },
+  "files": ["index.js"],
+  "dependencies": {
+    "unist-util-map": "^1.0.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "mocha": "^3.4.2",
+    "remark-parse": "^3.0.1",
+    "unified": "^6.1.5",
+    "unist-util-visit": "^1.1.3"
+  }
+}

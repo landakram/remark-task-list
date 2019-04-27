@@ -1,4 +1,3 @@
-import 'babel-polyfill';
 import map from 'unist-util-map';
 
 const taskListPlugin = function(options) {
@@ -7,7 +6,7 @@ const taskListPlugin = function(options) {
 
     function transformCheck(node) {
         var toggle = options.toggle || [];
-        if (node.data && toggle.includes(node.data.id)) {
+        if (node.data && toggle.indexOf(node.data.id) != -1) {
             node.checked = !node.checked;
         }
     }
